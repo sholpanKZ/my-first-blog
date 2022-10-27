@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/myfirstblog?createDatabaseIfNotExist=true
+    password: '123qwe123'
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
